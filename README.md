@@ -516,11 +516,7 @@ tar -czvf backup-bot-$(date +%F).tar.gz \
 
 ## 🤝 Contribuindo
 
-1. Fork o projeto
-2. Crie uma branch: `git checkout -b feature/nova-funcionalidade`
-3. Commit: `git commit -m 'feat: adiciona nova funcionalidade'`
-4. Push: `git push origin feature/nova-funcionalidade`
-5. Abra um Pull Request
+
 
 ### Padrão de Commits
 
@@ -543,8 +539,7 @@ MIT License — veja [LICENSE](LICENSE) para detalhes.
 
 **Fernando Nunes Coutinho**  
 Analista de TI — Gestão de Projetos de Informática  
-[LinkedIn](https://linkedin.com/in/seu-perfil) · [GitHub](https://github.com/seu-usuario)
-
+[LinkedIn]((https://www.linkedin.com/in/fernando-nunes-coutinho/)) · [GitHub][((https://github.com/master-crypto)
 ---
 
 ## 🙏 Tecnologias Utilizadas
