@@ -1,0 +1,41 @@
+# Variáveis de ambiente com credenciais
+.env
+.env.local
+.env.production
+
+# Sessão do WhatsApp (Evolution API)
+evolution_store/
+auth_info/
+
+# Dados persistidos do N8N
+n8n_data/
+n8n_files/
+
+# Dados do banco de dados
+postgres_data/
+
+# E-mails de usuários (dados pessoais)
+user_emails.json
+
+# Logs
+*.log
+logs/
+
+# Dependências Node.js
+node_modules/
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Backups locais
+backup-*.tar.gz

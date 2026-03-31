@@ -1,0 +1,69 @@
+{
+  "_comment": "Mapeamento de categorias ITIL do GLPI para o bot WhatsApp.",
+  "_note": "Encontre os IDs em: GLPI > Configurar > Intitulados > Categorias de Chamados > (clique na categoria) > ID na URL",
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acesso e Identidade",
+      "emoji": "🔐",
+      "description": "Criação de usuários, reset de senha, desbloqueio, permissões"
+    },
+    {
+      "id": 2,
+      "name": "CFTV",
+      "emoji": "📹",
+      "description": "Câmeras de segurança, DVR, sistema de monitoramento"
+    },
+    {
+      "id": 3,
+      "name": "E-mail e Colaboração",
+      "emoji": "📧",
+      "description": "Problemas com e-mail, criação de contas, grupos, Google Workspace"
+    },
+    {
+      "id": 5,
+      "name": "Impressora/Scanner",
+      "emoji": "🖨",
+      "description": "Impressão, atolamento de papel, troca de toner, scanner"
+    },
+    {
+      "id": 6,
+      "name": "Rede e Conectividade",
+      "emoji": "🌐",
+      "description": "Internet, Wi-Fi, conexão instável, VPN"
+    },
+    {
+      "id": 10,
+      "name": "Suporte à Estação",
+      "emoji": "🖥",
+      "description": "Computador lento, instalação de software, hardware"
+    }
+  ],
+
+  "forms": [
+    { "id": 16, "name": "Alteração de perfil de acesso", "category_id": 1 },
+    { "id": 12, "name": "Criação do usuário de rede",    "category_id": 1 },
+    { "id": 14, "name": "Desbloqueio de usuário",        "category_id": 1 },
+    { "id": 15, "name": "Reset de senha",                "category_id": 1 },
+
+    { "id": 60, "name": "Problema com a câmera", "category_id": 2 },
+    { "id": 61, "name": "Problema com o DVR",    "category_id": 2 },
+
+    { "id": 23, "name": "Aumento de espaço Google Workspace", "category_id": 3 },
+    { "id": 22, "name": "Criação de conta de e-mail",         "category_id": 3 },
+    { "id": 24, "name": "Criação de grupo de e-mail",         "category_id": 3 },
+    { "id": 6,  "name": "Problemas com o E-mail",             "category_id": 3 },
+
+    { "id": 43, "name": "Atolamento de papel",     "category_id": 5 },
+    { "id": 40, "name": "Não Imprime",             "category_id": 5 },
+    { "id": 42, "name": "Troca de toner/cartucho", "category_id": 5 },
+
+    { "id": 11, "name": "Conexão de rede instável", "category_id": 6 },
+    { "id": 10, "name": "Problema com Wi-fi",       "category_id": 6 },
+    { "id": 8,  "name": "Sem acesso à internet",    "category_id": 6 },
+
+    { "id": 17, "name": "Desktop/Notebook com lentidão", "category_id": 10 },
+    { "id": 20, "name": "Instalação de software",        "category_id": 10 }
+  ]
+}
