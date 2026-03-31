@@ -470,7 +470,7 @@ Verifique o formato do telefone no GLPI:
 ```sql
 -- O campo mobile deve conter apenas números, sem formatação
 -- Correto: DDDNUMERO
--- Errado: (48) 99664-6843
+-- Errado: (48) 9999-9999
 
 SELECT id, name, mobile FROM glpi_users
 WHERE name = 'login_do_usuario';
